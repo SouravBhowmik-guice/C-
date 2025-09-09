@@ -60,7 +60,8 @@ int main() {
     cout<<"my grade is " << myThirdGrade << endl;
 
     bool red_light{true};
-    bool green_light{false};
+    bool yellow_light{true};
+    bool green_light{true};
     cout<<"--------------------"<<endl;
 
     if(red_light){
@@ -69,7 +70,10 @@ int main() {
     else{
         cout<<"Red light is off. Go!"<<endl;
     }
-    cout<<"--------------------"<<endl;
+    if(yellow_light){
+        cout<<"Yellow light is on. Please wait!"<<endl;
+    }
+    
     if(green_light){
         cout<<"Green light is on. Go!"<<endl;
     }
