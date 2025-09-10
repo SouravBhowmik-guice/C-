@@ -89,8 +89,18 @@ int main(){
         const int birds[] {10,12,15,11,18,17,23,56};  
         birds[2] = 8;// error can't assign in const array
         // can assign if it is not const
-
         */
+
+        //Sum up scores array, store result in sum
+
+        int scores [] {2,5,8,2,5,6,9};
+        int sum{0};
+
+        for(int element : scores){
+            su m +=element;
+        }
+        cout<<"Score sum : "<< sum << endl;
+
  
         
 
