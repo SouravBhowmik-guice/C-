@@ -38,6 +38,9 @@ cout << *ptr << "\n";
 // Output the new value of the food1 variable (Hamburger)
 cout << food1 << "\n";
 
+//Rule 1 : Dont use a pointer that is not initialised
+//Rule 2 : Dont try to work with a pointer that is pointing to no ptr
+
     return 0;
 
 }
