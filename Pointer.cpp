@@ -8,10 +8,13 @@ int main(){
 
     // Output the value of food (Pizza)
     cout<< food<< "\n";
+
     // Output the memory address of food (0x6dfed4)
     cout<< &food<< "\n";
+
     //Reference: Output the memory address of food with the pointer (0x6dfed4)
     cout<< ptr<<"\n";
+    
     // Dereference: Output the value of food with the pointer (Pizza)
     cout<<*ptr<<"\n";
 
@@ -39,7 +42,7 @@ cout << *ptr << "\n";
 cout << food1 << "\n";
 
 //Rule 1 : Dont use a pointer that is not initialised
-//Rule 2 : Dont try to work with a pointer that is pointing to no ptr
+//Rule 2 : Dont try to work with a pointer that is pointing to no ptr 
 
     return 0;
 

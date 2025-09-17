@@ -87,7 +87,7 @@ int main() {
     
     
 
-    displayMessage(); // Call the function
+    displayMessage(); // Call the void function
 
 
     cout<<"--------------------"<<endl;

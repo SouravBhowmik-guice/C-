@@ -4,7 +4,9 @@
 using namespace std;
 
 int main(){
-        //math reference
+
+    /*
+    //math reference
     string math_url = "https://www.w3schools.com/cpp/cpp_ref_math.asp";
     cout<<"link to get math refernces "<<math_url<<endl;
     cout<<"--------------------------------"<<endl;
@@ -40,6 +42,8 @@ int main(){
     int x=10;
     cout<<(x==20);//false
     cout<<endl;
+
+    */
 
     //if else statement
     //example in datatypes.cpp
