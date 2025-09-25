@@ -67,7 +67,7 @@ int main(){
         //are initialized to 0
 
 
-        /*
+        
         int families[5]{12, 7, 5};
 
         for(size_t i{9}; i < 5; ++i){
@@ -93,6 +93,7 @@ int main(){
 
         //Sum up scores array, store result in sum
 
+        /*
         int scores [] {2,5,8,2,5,6,9};
         int sum{0};
 
@@ -100,6 +101,7 @@ int main(){
             su m +=element;
         }
         cout<<"Score sum : "<< sum << endl;
+        */
 
  
         
